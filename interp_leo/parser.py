@@ -1,5 +1,5 @@
 import re
-from transition import Transition
+from interp_leo.transition import Transition
 
 
 class Parser:

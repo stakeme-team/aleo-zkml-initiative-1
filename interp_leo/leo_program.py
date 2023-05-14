@@ -1,4 +1,4 @@
-from parser import Parser
+from interp_leo.parser import Parser
 
 
 class LeoProgram:
