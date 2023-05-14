@@ -1,4 +1,4 @@
-<img width="960" alt="aleo-zkml-initiative-1" src="https://github.com/stakemepro/aleo-zkml-initiative-1/assets/104348282/9c701594-4f27-4ed7-a4dd-1610bc9082ea">
+<img width="960" alt="aleo-zkml-initiative-1" src="https://github.com/stakemepro/aleo-zkml-initiative-1/assets/104348282/9d8fcadc-addc-4098-8cdb-e2f5ea95be14">
 
 ## aleo-zkml-initiative-1
 
