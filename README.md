@@ -14,6 +14,7 @@ In the Python Developer Tooling section: the following modules have been develop
 <br></br>
 <li>Running Leo from Python</li>
 <li>Convert types Python/Leo</li>
+<br></br>
 
 **Running Leo from Python**
 </br>
