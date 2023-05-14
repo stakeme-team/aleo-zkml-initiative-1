@@ -9,3 +9,26 @@ STAKEME took part in the zkml-initiative-1 hackathon and the work was done in tw
 In the zkML Algorithms section: The Linear Regression ML algorithm was developed using the Leo language. More detailed description is in Google Colaboratory (you can use online) or you can download .ipynb (Jupyter Notebook)
 <br>
 Google Colaboratory: <a href="https://colab.research.google.com/drive/1c3_Pu7yELRymKxCocp4PKbJ3uGVsXTq7?usp=sharing">https://colab.research.google.com/drive/1c3_Pu7yELRymKxCocp4PKbJ3uGVsXTq7?usp=sharing</a>
+<hr>
+In the Python Developer Tooling section: the following modules have been developed
+<li>Running Leo from Python</li>
+<li>Convert types Python/Leo</li>
+
+**Running Leo from Python**
+</br>
+Usage
+```python
+from interp_leo.uitls import convert_from_leo_type
+from interp_leo.leo_program import LeoProgram
+
+leo_program = LeoProgram(path=os.getcwd() + '/linear_regression')
+leo_program.func(...)
+```
+leo_program will automatically parse all functions and you will be able to access these functions directly in python. When passing arguments, they will be automatically converted to Leo type
+
+**Convert types Python/Leo**
+```python
+convert_from_leo_type('1u128') #128
+convert_to_leo_type(10, 'u128') #10i128
+```
+Note: In case of exceeding the range of available numbers of a certain type, an error will be issued
