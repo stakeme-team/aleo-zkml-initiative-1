@@ -2,7 +2,7 @@ import re
 import subprocess
 from dataclasses import dataclass
 
-from interp_leo.aleo_uitls import convert_to_leo_type
+from interp_leo.leo_uitls import convert_to_leo_type
 
 @dataclass
 class Transition:

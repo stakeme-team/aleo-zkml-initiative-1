@@ -21,7 +21,7 @@ In the Python Developer Tooling section: the following modules have been develop
 Usage
 
 ```python
-from interp_leo.aleo_uitls import convert_from_leo_type
+from interp_leo.leo_uitls import convert_from_leo_type
 from interp_leo.leo_program import LeoProgram
 
 leo_program = LeoProgram(path=os.getcwd() + '/path_to_aleo_application')
