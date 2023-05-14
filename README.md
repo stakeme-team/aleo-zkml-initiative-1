@@ -23,7 +23,7 @@ Usage
 from interp_leo.uitls import convert_from_leo_type
 from interp_leo.leo_program import LeoProgram
 
-leo_program = LeoProgram(path=os.getcwd() + '/linear_regression')
+leo_program = LeoProgram(path=os.getcwd() + '/path_to_aleo_application')
 leo_program.func(...)
 ```
 leo_program will automatically parse all functions and you will be able to access these functions directly in python. When passing arguments, they will be automatically converted to Leo type
