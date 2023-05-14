@@ -7,10 +7,11 @@
 STAKEME took part in the zkml-initiative-1 hackathon and the work was done in two sections: **zkML Algorithms** and **Python Developer Tooling**
 <hr>
 In the zkML Algorithms section: The Linear Regression ML algorithm was developed using the Leo language. More detailed description is in Google Colaboratory (you can use online) or you can download .ipynb (Jupyter Notebook)
-<br>
+<br></br>
 Google Colaboratory: <a href="https://colab.research.google.com/drive/1c3_Pu7yELRymKxCocp4PKbJ3uGVsXTq7?usp=sharing">https://colab.research.google.com/drive/1c3_Pu7yELRymKxCocp4PKbJ3uGVsXTq7?usp=sharing</a>
 <hr>
 In the Python Developer Tooling section: the following modules have been developed
+<br></br>
 <li>Running Leo from Python</li>
 <li>Convert types Python/Leo</li>
 
